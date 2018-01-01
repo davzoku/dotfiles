@@ -52,21 +52,20 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\code\1 for 2310 config files\jsonconfig.cpp" />
-        <File filename="C:\code\1 for 2310 config files\config.json" />
-        <File filename="C:\Users\KokWai\AppData\Local\Temp\scp58306\home\duser\canplaybackdemo.sh" />
-        <File filename="C:\Users\KokWai\Desktop\GreyEveThemeV2.1.theme" />
-        <File filename="C:\Users\KokWai\AppData\Local\Microsoft\Windows\Themes\GreyEveThemeV2.1.theme" />
-        <File filename="C:\code\fromsvn\can_decoder_application\src\Mk5CanConnection.cpp" />
-        <File filename="C:\Users\KokWai\ssh" />
-        <File filename="C:\Users\KokWai\ssh.pub" />
-        <File filename="C:\Users\KokWai\ssh2.pub" />
-        <File filename="C:\Users\KokWai\Dropbox\config.xml" />
-        <File filename="C:\Users\KokWai\Dropbox\contextMenu.xml" />
-        <File filename="C:\Users\KokWai\Dropbox\langs.xml" />
-        <File filename="C:\Users\KokWai\Dropbox\shortcuts.xml" />
-        <File filename="C:\Users\KokWai\Dropbox\stylers.xml" />
-        <File filename="C:\Users\KokWai\Dropbox\userDefineLang.xml" />
+        <File filename="C:\Users\KokWai\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\bin\vi" />
+        <File filename="C:\Users\KokWai\Desktop\Mk5CanConnector_ineedtoconverthis.cpp" />
+        <File filename="C:\Users\KokWai\AppData\Local\Temp\scp59510\home\duser\mazda3_2015_all_doors.log" />
+        <File filename="C:\code\fromsvn\can_decoder_application\src\OutputMessagePublisher.hpp" />
+        <File filename="C:\Users\KokWai\Dropbox\1 FYP\Mazda3Year2015.java" />
+        <File filename="C:\code\Install-PowerShell_Profile.ps1" />
+        <File filename="C:\code\github\phpground\README.md" />
+        <File filename="C:\code\github\dotfiles\README.md" />
+        <File filename="C:\Program Files (x86)\Notepad++\change.log" />
+        <File filename="C:\Users\KokWai\Documents\WindowsPowerShell\Functions\checkIsAdmin.ps1" />
+        <File filename="C:\code\github\pyground\djangosite\README.md" />
+        <File filename="C:\code\github\rsground\README.md" />
+        <File filename="C:\code\github\rsground\ownership.rs" />
+        <File filename="C:\code\github\rsground\hello-world.rs" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -75,7 +74,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="4" />
-        <GUIConfig name="AppPosition" x="396" y="-32" width="1100" height="1044" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="580" y="21" width="1080" height="1000" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20180113">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -109,9 +108,10 @@
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="269" rightWidth="839" topHeight="200" bottomHeight="608">
+        <GUIConfig name="DockingManager" leftWidth="389" rightWidth="839" topHeight="200" bottomHeight="608">
             <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="MarkdownViewer++" id="0" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="1" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
