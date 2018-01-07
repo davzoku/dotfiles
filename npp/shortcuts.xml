@@ -1,5 +1,13 @@
 <NotepadPlus>
-    <InternalCommands />
+    <InternalCommands>
+        <Shortcut id="41019" Ctrl="yes" Alt="no" Shift="yes" Key="69" />
+        <Shortcut id="41020" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41010" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44080" Ctrl="yes" Alt="no" Shift="no" Key="191" />
+        <Shortcut id="44085" Ctrl="yes" Alt="no" Shift="no" Key="188" />
+        <Shortcut id="44084" Ctrl="yes" Alt="no" Shift="no" Key="190" />
+        <Shortcut id="41022" Ctrl="yes" Alt="no" Shift="yes" Key="79" />
+    </InternalCommands>
     <Macros>
         <Macro name="Trim Trailing and save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
             <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
@@ -18,6 +26,16 @@
         <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
     </UserDefinedCommands>
-    <PluginCommands />
-    <ScintillaKeys />
+    <PluginCommands>
+        <PluginCommand moduleName="Explorer.dll" internalID="0" Ctrl="yes" Alt="no" Shift="no" Key="69" />
+        <PluginCommand moduleName="MarkdownViewerPlusPlus.dll" internalID="0" Ctrl="yes" Alt="no" Shift="no" Key="77" />
+        <PluginCommand moduleName="EmmetNPP.dll" internalID="0" Ctrl="yes" Alt="no" Shift="no" Key="192" />
+        <PluginCommand moduleName="Explorer.dll" internalID="3" Ctrl="yes" Alt="no" Shift="no" Key="80" />
+        <PluginCommand moduleName="Explorer.dll" internalID="1" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="EmmetNPP.dll" internalID="1" Ctrl="yes" Alt="no" Shift="yes" Key="192" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2327" menuCmdID="42008" Ctrl="no" Alt="yes" Shift="yes" Key="9" />
+        <ScintKey ScintID="2390" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
 </NotepadPlus>
