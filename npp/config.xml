@@ -56,18 +56,15 @@
         <Replace name="" />
         <Replace name="" />
     </FindHistory>
-    <FileBrowser latestSelectedItem="">
-        <root foldername="C:\code\npp-portable-EX" />
-    </FileBrowser>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="no">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
         <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" />
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
-        <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
+        <GUIConfig name="UserDefineDlg" position="docked">show</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="4" />
-        <GUIConfig name="AppPosition" x="152" y="0" width="1080" height="1000" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="1325" y="71" width="1080" height="1000" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20180113">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">yes</GUIConfig>
@@ -100,17 +97,17 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="315" rightWidth="635" topHeight="200" bottomHeight="608">
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="yes" />
+        <GUIConfig name="DockingManager" leftWidth="424" rightWidth="635" topHeight="200" bottomHeight="608">
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MarkdownViewer++" id="0" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="0" activeTab="1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
@@ -121,4 +118,7 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
+    <FileBrowser latestSelectedItem="C:\code\github\jsground\gatsbyjs-static\package-lock.json">
+        <root foldername="C:\code\github\jsground\gatsbyjs-static" />
+    </FileBrowser>
 </NotepadPlus>

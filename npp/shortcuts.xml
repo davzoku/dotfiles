@@ -7,6 +7,7 @@
         <Shortcut id="44085" Ctrl="yes" Alt="no" Shift="no" Key="188" />
         <Shortcut id="44084" Ctrl="yes" Alt="no" Shift="no" Key="190" />
         <Shortcut id="41022" Ctrl="yes" Alt="no" Shift="yes" Key="79" />
+        <Shortcut id="46250" Ctrl="yes" Alt="no" Shift="no" Key="186" />
     </InternalCommands>
     <Macros>
         <Macro name="Trim Trailing and save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
