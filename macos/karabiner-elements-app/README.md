@@ -8,5 +8,5 @@ brew install --cask karabiner-elements
 
 ## Usage
 
-- Set up Caps Lock as Hyper Key
-  - Caps Lock = Control + Option + Command
+- Set up Hyper Key
+  - Caps Lock or fn = Control + Option + Command

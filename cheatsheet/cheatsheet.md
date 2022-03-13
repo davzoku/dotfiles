@@ -3,7 +3,7 @@
 ## Prerequisites
 
 1. Set up Hyper key on MacOS with Karabiner Elements.
-   - Caps Lock = Control + Option + Command
+   - Caps Lock or fn = Control + Option + Command
 
 ## Window Navigation
 
@@ -96,3 +96,17 @@ _fulfilled by Karabiner-Elements.app + Hammerspoon.app_
 | Open Postman                    | Hyper + Shift + p |
 | Open Slack                      | Hyper + Shift + s |
 | Open Microsoft Remote Desktop   | Hyper + Shift + z |
+
+## VS Code Shortcuts
+
+### Windows
+
+[keyboard-shortcuts-windows.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+### MacOS
+
+[keyboard-shortcuts-macos.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
+## Intellij Shortcuts
+
+[IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
