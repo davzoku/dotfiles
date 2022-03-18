@@ -56,13 +56,15 @@
         "source": "Windows.Terminal.Wsl"
       },
       {
-        "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+        "commandline": "C:/Program Files/Git/bin/bash.exe --login switch-to-zsh.sh",
+        "font": {
+          "face": "Droid Sans Mono for Powerline"
+        },
         "guid": "{00000000-0000-0000-ba54-000000000002}",
         "hidden": false,
         "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
         "name": "Git",
-        "startingDirectory": "%USERPROFILE%",
-        "fontFace": "Droid Sans Mono for Powerline"
+        "startingDirectory": "%USERPROFILE%"
       }
     ]
   },

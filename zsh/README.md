@@ -57,9 +57,18 @@ pacman-key --refresh-keys
 pacman -S zsh
 ```
 
+### Using both Git Bash and zsh on Windows
+
+- After setting up zsh on Windows Terminal with `bash -c zsh` in the `.bashrc` file, I noticed that zsh is extremely slow within VSCode and freezes from time to time. There isn't much documentation on this, so I have fall back to using bash in VSCode for the time being.
+- I will use zsh in Windows Terminal exclusively by adding `"commandline": "C:/Program Files/Git/bin/bash.exe --login switch-to-zsh.sh"` to my Windows Terminal settings.json.
+
 ### Powerlevel10k theme
 
 - Configuring Powerlevel10k theme and DroidSansMono Nerd Font
 
   - [Awesome WSL / WSL2 Windows Terminal, zsh, oh-my-zsh, Powerlevel10k](https://www.the-digital-life.com/awesome-wsl-wsl2-terminal/)
   - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
+
+## References
+
+- [shell - How to run a script with Git bash with custom bashrc? - Stack Overflow](https://stackoverflow.com/questions/22269023/how-to-run-a-script-with-git-bash-with-custom-bashrc)

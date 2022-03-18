@@ -77,7 +77,7 @@ hs_bind("a", launchApp("AWS VPN Client"))
 hs_bind("b", launchApp("Google Chrome"))
 -- chrome app
 hs_bind("c", launchApp("Google Calendar"))
-hs_bind("d", launchApp("MySQLWorkbench"))
+hs_bind("d", launchApp("Docker"))
 hs_bind("e", launchApp("Finder"))
 -- chrome app
 hs_bind("g", launchApp("Gmail"))
@@ -87,7 +87,12 @@ hs_bind("p", launchApp("Postman"))
 hs_bind("s", launchApp("Slack"))
 hs_bind("t", launchApp("iTerm"))
 hs_bind("v", launchApp("Visual Studio Code"))
+hs_bind("w", launchApp("MySQLWorkbench"))
+hs_bind("x", launchApp("1Password 7"))
 hs_bind("z", launchApp("Microsoft Remote Desktop"))
+
+hs_bind("q", launchApp("App Store"))
+hs_bind("l", launchApp("Launchpad"))
 
 -- window functions
 
