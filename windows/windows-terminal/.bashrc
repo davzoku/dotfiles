@@ -3,3 +3,7 @@ source "/c/project/lib/sdkman/bin/sdkman-init.sh"
 export TERM=cygwin
 
 # bash -c zsh
+
+# alias
+alias src='source ~/.bashrc'
+source ~/.alias

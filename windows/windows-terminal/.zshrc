@@ -115,3 +115,9 @@ source $ZSH/oh-my-zsh.sh
 export SDKMAN_DIR="/c/project/lib/sdkman"
 [[ -s "/c/project/lib/sdkman/bin/sdkman-init.sh" ]] && source "/c/project/lib/sdkman/bin/sdkman-init.sh"
 
+# alias
+alias src='source ~/.zshrc'
+source ~/.alias
+
+# hide computer name
+export DEFAULT_USER="$(whoami)"

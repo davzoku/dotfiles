@@ -1,0 +1,7 @@
+alias gd='gatsby develop'
+alias gp='git pull'
+alias gs='git status'
+alias e='exercism'
+
+alias d='docker'
+alias tf='terraform'
