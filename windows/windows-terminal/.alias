@@ -1,5 +1,9 @@
 alias gd='gatsby develop'
 alias gp='git pull'
+
+# recursively git pull sub-directories
+alias gpa='find . -name .git -print -execdir git pull \;'
+
 alias gs='git status'
 alias e='exercism'
 
