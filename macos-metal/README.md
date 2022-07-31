@@ -1,6 +1,5 @@
 ## Custom Keyboard Shortcuts
 
-- Show Launchpad: `CMD + ,`
 - Select the previous input source: `Meta + i`
 - Save picture of selected area as a file: `Meta + S`
 - `Emoji & Symbols` : `CMD+.`
@@ -18,7 +17,7 @@
 
 ## References
 
--[Where are keyboard shortcuts stored (for backup and sync purposes)? - Ask Different](https://apple.stackexchange.com/questions/87619/where-are-keyboard-shortcuts-stored-for-backup-and-sync-purposes)
+- [Where are keyboard shortcuts stored (for backup and sync purposes)? - Ask Different](https://apple.stackexchange.com/questions/87619/where-are-keyboard-shortcuts-stored-for-backup-and-sync-purposes)
 
 - [dotfiles/hotkeys.sh at master · diimdeep/dotfiles](https://github.com/diimdeep/dotfiles/blob/master/osx/configure/hotkeys.sh)
 
