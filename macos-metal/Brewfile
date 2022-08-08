@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "cocoapods"
 brew "docker"
 brew "node"
 brew "nvm"
