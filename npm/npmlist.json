@@ -1,0 +1,23 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "corepack": {
+      "version": "0.10.0"
+    },
+    "gatsby-cli": {
+      "version": "4.20.0"
+    },
+    "netlify-cli": {
+      "version": "10.14.0"
+    },
+    "newman": {
+      "version": "5.3.2"
+    },
+    "npm": {
+      "version": "8.11.0"
+    },
+    "nvm": {
+      "version": "0.0.4"
+    }
+  }
+}

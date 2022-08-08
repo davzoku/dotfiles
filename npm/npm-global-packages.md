@@ -2,6 +2,8 @@
 
 `npm list -g`
 
+`npm list -json -g > npmlist.json`
+
 ## Installed Packages
 
 - aws-cdk
