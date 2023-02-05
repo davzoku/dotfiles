@@ -3,10 +3,15 @@ alias gp='git pull'
 alias gc='git clone'
 
 # recursively git pull sub-directories
+
 alias gpa='find . -name .git -print -execdir git pull \;'
 
 alias gs='git status'
 alias e='exercism'
 
 alias d='docker'
+
+alias jn='jupyter notebook'
+alias jl='jupyter lab'
+
 alias tf='terraform'
