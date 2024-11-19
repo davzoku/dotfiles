@@ -15,6 +15,11 @@
 - [Rocket – the best emoji app for Mac](https://matthewpalmer.net/rocket/) : add emoji easily
 - [TopNotch for macOS](https://topnotch.app/) : hide mac notch
 
+## Signing Git Commits
+
+To set up Github using GPG key with private email, follow:
+[Github "Verified" commits using GPG key with private email](https://gist.github.com/nitrocode/bc62b6e86d1bd8c3acf9cb83caab3883)
+
 ## References
 
 - [Where are keyboard shortcuts stored (for backup and sync purposes)? - Ask Different](https://apple.stackexchange.com/questions/87619/where-are-keyboard-shortcuts-stored-for-backup-and-sync-purposes)

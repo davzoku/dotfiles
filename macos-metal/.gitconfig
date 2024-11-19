@@ -1,3 +1,8 @@
 [user]
 	name = Walter Teng
 	email = 16046667+davzoku@users.noreply.github.com
+	signingkey =
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
