@@ -1,0 +1,7 @@
+---
+- name: Test Ansible Installation
+  hosts: localhost
+  tasks:
+    - name: Print a friendly message
+      ansible.builtin.debug:
+        msg: "Hello, Ansible is set up correctly! The home directory is {{ ansible_env.HOME }}. The playbook dir is {{ playbook_dir }}. The ansible distribution is {{ ansible_distribution }}"

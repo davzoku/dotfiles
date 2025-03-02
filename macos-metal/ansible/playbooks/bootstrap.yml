@@ -1,0 +1,10 @@
+- name: Bootstrap development environment
+  hosts: localhost
+  tasks:
+    - name: Debug var step
+      ansible.builtin.debug:
+        msg: echo "DEBUG: directory is {{ playbook_dir | dirname | dirname }}"
+
+    - name: Install packages from Brewfile
+      ansible.builtin.shell: brew bundle --verbose --file={{ playbook_dir | dirname | dirname }}/Brewfile > {{ playbook_dir }}/brew_bundle.log 2>&1
+      when: ansible_distribution == "MacOSX"
