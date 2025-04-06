@@ -1,6 +1,9 @@
 #!/bin/bash
 # curl -fsSL https://raw.githubusercontent.com/davzoku/dotfiles/master/android/setup_termux | bash -s -- <repository-url>
 
+GIT_USER_NAME="Walter Teng"
+GIT_USER_EMAIL="16046667+davzoku@users.noreply.github.com"
+
 # Check if a repository URL was provided
 if [ -z "$1" ]; then
   echo "Usage: $0 <repository-url>"
@@ -26,8 +29,8 @@ for pkg in git gh; do
   fi
 done
 
-git config --global user.name "davzoku"
-git config --global user.email "walterteng.kw@gmail.com"
+git config --global user.name "$GIT_USER_NAME"
+git config --global user.email "$GIT_USER_EMAIL"
 
 cd ~/storage/downloads || { echo "Downloads directory not found"; exit 1; }
 
