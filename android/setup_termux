@@ -1,5 +1,5 @@
 #!/bin/bash
-# curl -fsSL https://raw.githubusercontent.com/davzoku/dotfiles/main/android/termux_setup.sh | bash -s -- <repository-url>
+# curl -fsSL https://raw.githubusercontent.com/davzoku/dotfiles/main/android/setup_termux | bash -s -- <repository-url>
 
 # Check if a repository URL was provided
 if [ -z "$1" ]; then
