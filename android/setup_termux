@@ -16,7 +16,15 @@ REPO_NAME=$(basename "$REPO_URL" .git)
 termux-setup-storage
 
 echo "Installing required packages..."
-pkg install -y git gh
+# git gh
+for pkg in git gh; do
+  if pkg list-installed | grep -q "^${pkg}/"; then
+    echo "$pkg is already installed."
+  else
+    echo "Installing $pkg..."
+    pkg install -y "$pkg"
+  fi
+done
 
 git config --global user.name "davzoku"
 git config --global user.email "walterteng.kw@gmail.com"
