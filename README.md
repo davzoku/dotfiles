@@ -6,6 +6,16 @@ Work in Progress
 
 This repository contains multiple scripts that can be copied and used directly in various environment such as MacOS, Linux, Windows and Android.
 
+### Bash settings
+
+Set up ble.sh for bash
+
+```
+curl -L https://github.com/akinomyoga/ble.sh/releases/download/nightly/ble-nightly.tar.xz | tar xJf -
+bash ble-nightly/ble.sh --install ~/.local/share
+echo 'source -- ~/.local/share/blesh/ble.sh' >> ~/.bashrc
+```
+
 ### Vimrc Settings
 
 ```
