@@ -35,3 +35,9 @@ curl -fsSL https://raw.githubusercontent.com/davzoku/dotfiles/master/.claude/rep
 ```
 curl -o ~/.termux/colors.properties https://raw.githubusercontent.com/davzoku/dotfiles/master/termux/colors.properties && termux-reload-settings
 ```
+
+### iTerm2 Theme
+
+```
+mkdir -p ~/.iterm && curl -L -o ~/.iterm/Monokai-Classic.itermcolors "https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Monokai%20Classic.itermcolors"
+```
