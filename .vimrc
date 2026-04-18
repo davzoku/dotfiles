@@ -35,7 +35,7 @@ set noswapfile
 
 " === Colors ===
 set termguicolors
-colorscheme desert
+colorscheme unokai
 
 " === Leader key ===
 let mapleader=" "
