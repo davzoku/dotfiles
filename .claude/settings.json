@@ -6,5 +6,19 @@
   "statusLine": {
     "type": "command",
     "command": "bash $HOME/.claude/statusline-command.sh"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Frog.aiff",
+            "async": true
+          }
+        ]
+      }
+    ]
   }
 }
