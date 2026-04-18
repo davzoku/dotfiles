@@ -5,10 +5,10 @@ set -euo pipefail
 # Usage:
 #   ./replace_local_claude_settings.sh [branch]
 # Example:
-#   ./replace_local_claude_settings.sh main
+#   ./replace_local_claude_settings.sh master
 
 REMOTE_REPO="https://github.com/davzoku/dotfiles"
-BRANCH="${1:-main}"
+BRANCH="${1:-master}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TARGET_DIR="$SCRIPT_DIR"
