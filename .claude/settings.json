@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": ["WebSearch", "WebFetch"]
+  },
+  "model": "haiku",
+  "statusLine": {
+    "type": "command",
+    "command": "bash $HOME/.claude/statusline-command.sh"
+  }
+}
